@@ -28,6 +28,8 @@ Void(0) is used to prevent the page from refreshing and parameter "zero" is pass
 Void(0) is used to call another method without refreshing the page.
 
 <b>//Predict the value of i </b>
+
+
 let i = ?;
 console.log(i + 1); // 1
 console.log(i - 1); // -1
