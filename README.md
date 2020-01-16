@@ -21,6 +21,12 @@ const sum = (x, y) => { return x + y };
 If we define a variable without using a var or let keyword at all? Technically, if this variable x hasn’t already been defined, then x = 1 is shorthand for window.x = 1.
 To prevent this shorthand altogether, you can use strict mode — introduced in ES5 — by writing use strict at the top of your document or a particular function. Then, when you try to declare a variable without a keyword, you’ll get an error: Uncaught SyntaxError: Unexpected indentifier.
 
+<b>3.What is the use of Void(0)?</b>
+
+Void(0) is used to prevent the page from refreshing and parameter "zero" is passed while calling.
+
+Void(0) is used to call another method without refreshing the page.
+
 
 
 
