@@ -39,6 +39,12 @@ console.log(i / i); // 1
 
 document.body.contentEditable=true;
 
+<b>Number format in javascript</b>
+
+let num = 2_00_000;
+console.error(num);
+  
+
 
 
 
