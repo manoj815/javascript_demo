@@ -57,6 +57,20 @@ var aa  =1;
  }
  xyz() //1
  
+ <b>Q. what would be output of below program</b>
+ 
+ var aa = 1;
+
+ function abc(){
+     console.log(aa);
+ }
+
+ function xyz()
+ {
+     var aa = 123;
+     abc();
+ }
+ xyz(); //1
   
 
 
