@@ -1,4 +1,4 @@
-# javascript_demo & interview Questions
+# javascript interview Questions
 This repository include small programs or some javascript tricks.
 
 <b>Q1. How Does a Function Expression Differ from a Function Declaration?</b>
@@ -43,19 +43,8 @@ document.body.contentEditable=true;
 
 let num = 2_00_000;
 console.error(num);
-<b>What would be output of the program</b>
-var aa  =1;
 
- function abc(){
-     console.log(aa);
- }
 
- function xyz()
- {
-     var aa = 123;
-     abc();
- }
- xyz() //1
  
  <b>Q. what would be output of below program</b>
  
