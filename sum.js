@@ -7,6 +7,9 @@ return a+b;
 add(2,3) //5
 
 add('2','3') //23
+add(-'2',-'3') //-5
+add(-'+2',-'+3')// -5
+add(-'-2',-'-3') //5
 
 //Plus sign before the operand is called ad uniry operator
 add(+'2',+'3') //5 
