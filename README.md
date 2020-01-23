@@ -60,8 +60,16 @@ console.error(num);
      abc();
  }
  xyz(); //1
-  
 
+<b>Q. Predict the value of below function </b>
+function sayHi() {
+  console.log(name);
+  console.log(age);
+  var name = "Lydia";
+  let age = 21;
+}
+
+sayHi() //undefined and Refrence Error
 
 
 
