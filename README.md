@@ -71,5 +71,36 @@ function sayHi() {
 
 sayHi() //undefined and Refrence Error
 
+<b>Q. for ....of vs for ....in</b>
+//for ----of is iteratable and works only on array. where as for ---in works well on both array and object
+const hobbies = ['sleeping', 'reading','walking'];
+
+for(item of hobbies){
+  console.log(item)
+}
+
+// sleeping
+// reading
+// walking
+
+for(item in hobbiesobj){
+  console.log(item)
+}
+//0
+//1
+//2
+
+const hobbiesObj =  {hobby1 : 'sleeping',hobby2 : 'reading', hobby3 :  'walking'};
+for(item in hobbiesObj){
+  console.log(item);
+  console.log(hobbiesObj[item]);
+}
+
+for(item of hobbiesObj){
+  console.log(item)
+}
+//TypeError: hobbiesObj is not iterable
+
+
 
 
