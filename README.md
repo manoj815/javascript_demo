@@ -101,6 +101,16 @@ for(item of hobbiesObj){
 }
 //TypeError: hobbiesObj is not iterable
 
+<b>Q. What would be output of below code</b>
+
+function sum(a,b,c){
+console.log('a value is',a,'b value is',b)
+return c+b;
+}
+
+
+sum`${a} dnfksndfks ${b}`
+
 
 
 
