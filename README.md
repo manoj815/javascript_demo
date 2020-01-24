@@ -111,6 +111,23 @@ return c+b;
 
 sum`${a} dnfksndfks ${b}`
 
+<b>are below two functions are same?</b>
+
+function foo1()
+{
+  return {
+  bar: "hello"
+  };
+}
+
+function foo2()
+{
+  return
+  {
+  bar: "hello"
+  };
+}
+
 
 
 
