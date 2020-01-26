@@ -128,6 +128,20 @@ function foo2()
   };
 }
 
+<b>Q. Print below pattern of stars.</b>
+
+var a = 0;
+var b = 0;
+var str = str1= '';
+for(a = 1, b = 10; b > 1; a++, b--)
+{
+    str += '*'.repeat(b);
+    str +='\n';
+    str1 += '*'.repeat(a);
+    str1 +='\n';
+}
+console.log(str+str1);
+
 
 
 
