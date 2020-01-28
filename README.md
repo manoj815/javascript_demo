@@ -143,5 +143,11 @@ for(a = 1, b = 10; b > 1; a++, b--)
 console.log(str+str1);
 
 
+<b>Q. Variable declaration style</b>
+case Style:
+camelCase
+PascalCase
+snake_Case
+kebab-case
 
 
