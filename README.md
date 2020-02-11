@@ -151,3 +151,18 @@ snake_Case
 kebab-case
 
 
+<b>Q. Why decrement in for is faster than increment</b>.
+
+console.time('increment');
+for (i = 0; i < 10; i++) {
+  console.log('i values is',i);
+}
+console.timeEnd('increment');
+console.time('decrement');
+for (j = 10; j > 0; j--) {
+   console.log('j value is',j);
+}
+console.timeEnd('decrement');
+
+
+
