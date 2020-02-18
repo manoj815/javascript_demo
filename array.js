@@ -25,6 +25,44 @@ ary.pop() //remove element from last
 ary.push(10); // Add element in last
 //(6) [1, 3, 4, 5, 7, 10];
 
+//
+
+var arr = [];
+for(i=0; i <= 5; i++)
+{
+    arr.push(function(){
+    console.log(i);
+    })
+}
+
+for(var index = 0; index<=5;index++)
+{
+    console.log(arr[index]());
+}
+//Out put of above program is 
+//6
+//6
+//6
+//6
+//6
+ //as the variable i gets hoisted to the top of the code snippet and the final value of i is 5 after the code gets executed.
+
+//suppose if we want to Print 0-5
+//By using IIFE’s we can also scope the value of the variable i to print the current index, instead of printing the final value as 10
+var arr = [];
+for(i=0; i <= 5; i++)
+{
+    (function(val){
+    arr.push(function(){
+    console.log(val);
+})
+    })(i)
+}
+for(var index = 0; index<=5;index++)
+{
+    console.log(arr[index]());
+}
+
 
 
 
