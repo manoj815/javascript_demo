@@ -1,3 +1,4 @@
+//Object destructuring
 const user = {
     name: 'manoj',
     age: 35,
