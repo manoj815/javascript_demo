@@ -164,5 +164,24 @@ for (j = 10; j > 0; j--) {
 }
 console.timeEnd('decrement');
 
+<b>Q. What is wrong in below program.</b>
+  var aa =[];
+  var myData = {};
+  for(var i=0; i<=5; i++){
+    const data = myData;
+    data.message = `message_${i}`;
+    data.code = i;
+    aa.push(data);
+  }
+  
+//0: {message: "message_5", code: 5}
+//1: {message: "message_5", code: 5}
+//2: {message: "message_5", code: 5}
+//3: {message: "message_5", code: 5}
+//4: {message: "message_5", code: 5}
+//5: {message: "message_5", code: 5}
+
+//We are playing with references here. After the code gets executed, we will have an array of five elements so that each //element is referencing the same object
+
 
 
