@@ -183,5 +183,9 @@ console.timeEnd('decrement');
 
 //We are playing with references here. After the code gets executed, we will have an array of five elements so that each //element is referencing the same object
 
+<b>Q.Difference between array.splice() and array.slice()</b>
+Array.splice modifies the original array and returns the array containing the elements deleted.
+Array.slice does not modify the original array. It just returns a new array of elements which is a subset of the original array.
+
 
 
