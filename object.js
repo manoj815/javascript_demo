@@ -23,3 +23,9 @@ let otherVar = 2;
 // output:
 // {myVar: "foo", otherVar: 2}
 console.log({myVar, otherVar});
+
+//Swapping two variables
+let a = 1;
+let b = 2;
+
+[b, a] = [a, b];
