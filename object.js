@@ -15,3 +15,11 @@ console.log(age); //35
 console.log(profile); //https://www.linkedin.com/in/manoj-kumar-0815/
 console.log(connections); //1000
 console.log(posts); //10
+
+
+let myVar = 'foo';
+let otherVar = 2;
+
+// output:
+// {myVar: "foo", otherVar: 2}
+console.log({myVar, otherVar});
