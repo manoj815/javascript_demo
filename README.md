@@ -187,5 +187,14 @@ console.timeEnd('decrement');
 Array.splice modifies the original array and returns the array containing the elements deleted.
 Array.slice does not modify the original array. It just returns a new array of elements which is a subset of the original array.
 
+<b>What is the preferred syntax for defining enums in JavaScript?</b>
+var DaysEnum = {
+    "monday": 1,
+    "tuesday": 2,
+    "wednesday": 3,
+    ...
+}
+Object.freeze(DaysEnum)
+
 
 
