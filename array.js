@@ -69,6 +69,11 @@ for (const [index, elem] of arr.entries()) {
     console.log(`index = ${index}, elem = ${elem}`);
 }
 
+let array = Array(5).fill('');
+console.log(array); // outputs (5) ["", "", "", "", ""]
+
+
+
 
 
 
