@@ -29,3 +29,12 @@ let a = 1;
 let b = 2;
 
 [b, a] = [a, b];
+
+//Dynamic Property Names
+
+const dynamic = 'email';
+let user = {
+    name: 'John',
+    [dynamic]: 'john@doe.com'
+}
+console.log(user); // outputs { name: "John", email: "john@doe.com" }
