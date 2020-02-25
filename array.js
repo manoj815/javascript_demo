@@ -62,7 +62,12 @@ for(var index = 0; index<=5;index++)
 {
     console.log(arr[index]());
 }
+// ES6 for-of loop is a loop that supports ES6 iteration (via iterables and iterators) and destructuring. If you combine destructuring with the new Array method entries(), you get:
 
+const arr = ['a', 'b', 'c'];
+for (const [index, elem] of arr.entries()) {
+    console.log(`index = ${index}, elem = ${elem}`);
+}
 
 
 
